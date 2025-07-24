@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Timetable - CSM2</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 20px;
+    }
+
+    .timetable {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .timetable th,
+    .timetable td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .timetable th {
+      background-color: #004080;
+      color: white;
+      font-weight: bold;
+    }
+
+    .timetable td {
+      background-color: #f9f9f9;
+      transition: background 0.3s ease;
+    }
+
+    .timetable td:hover {
+      background-color: #e0f0ff;
+    }
+
+    .time-col {
+      background-color: #e6f2ff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSM 2 - Class Timetable (Class Teacher: D.B. Santoshi)</h2>
+
+  <table class="timetable">
+    <tr>
+      <th>Day / Time</th>
+      <th>9:30–10:20</th>
+      <th>10:20–11:10</th>
+      <th>11:10–12:00</th>
+      <th>12:00–12:50</th>
+      <th>12:50–1:40</th>
+      <th>1:40–2:30</th>
+      <th>2:30–3:20</th>
+      <th>3:20–4:10</th>
+      <th>4:10–5:00</th>
+    </tr>
+    <tr>
+      <td class="time-col">Monday<br>Room: 118</td>
+      <td>DMS (Mrs. DSSR)</td>
+      <td>DS (Dr. CS)</td>
+      <td>DBMS (Mr. PS)</td>
+      <td>LUNCH</td>
+      <td>OOPS TH JAVA (Ms. NSM)</td>
+      <td>DMS (Mrs. DSSR)</td>
+      <td>PE & UHV (Dr. RPN)</td>
+      <td>NSS (Mrs. PHL)</td>
+      <td>AIMERS CLUB ACTIVITY</td>
+    </tr>
+    <tr>
+      <td class="time-col">Tuesday<br>Room: 119</td>
+      <td>DEVOPS (T) (Dr. KPN)</td>
+      <td>DBMS (Mr. PS)</td>
+      <td>DS (Dr. CS)</td>
+      <td>LUNCH</td>
+      <td colspan="2">OOPS TH JAVA LAB (Mrs. PSD, Ms. NSM)</td>
+      <td>ME (Mrs. KVK)</td>
+      <td colspan="2">LIBRARY</td>
+    </tr>
+    <tr>
+      <td class="time-col">Wednesday<br>Room: 119</td>
+      <td colspan="3">DS LAB (Mrs. MD, Ms. NSM)</td>
+      <td>LUNCH</td>
+      <td>DMS (Mrs. DSSR)</td>
+      <td>OOPS TH JAVA (Ms. NSM)</td>
+      <td>NSS (Mrs. PHL)</td>
+      <td colspan="2">ME (Mrs. KVK)</td>
+    </tr>
+    <tr>
+      <td class="time-col">Thursday<br>Room: 119</td>
+      <td colspan="3">DEVOPS LAB (Dr. KPN), PROJECTS LAB</td>
+      <td>LUNCH</td>
+      <td>DS (Dr. CS)</td>
+      <td>OOPS TH JAVA (Ms. NSM)</td>
+      <td>ME (Mrs. KVK)</td>
+      <td colspan="2">PE & UHV (Dr. RPN), LIBRARY</td>
+    </tr>
+    <tr>
+      <td class="time-col">Friday<br>Room: 119</td>
+      <td colspan="2">DBMS LAB (Mrs. PSD, Mrs. HG)</td>
+      <td>(IT LABS 1 & 2)</td>
+      <td>LUNCH</td>
+      <td>DS (Dr. CS)</td>
+      <td>DMS (Mrs. DSSR)</td>
+      <td>ME (Mrs. KVK)</td>
+      <td>DBMS (Mr. PS)</td>
+      <td>DBMS (Mr. PS)</td>
+    </tr>
+  </table>
+
+</body>
+</html>
